@@ -5,9 +5,6 @@ let allMarks = [];
 const studentNameInput = document.getElementById('studentName');
 const studentMarksInput = document.getElementById('studentMarks');
 const addBtn = document.getElementById('addBtn');
-const studentTableBody = document.getElementById('studentTableBody');
-const classAverageSpan = document.getElementById('classAverage');
-
 // Function to calculate letter grade based on marks
 function calculateGrade(marks) {
     if (marks >= 80 && marks <= 100) {
